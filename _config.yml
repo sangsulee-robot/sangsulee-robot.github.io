@@ -10,7 +10,7 @@ baseurl: ''
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: ko
+lang: ko-KR
 
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
@@ -19,18 +19,18 @@ timezone: Asia/Seoul
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Robotics Blog                   # the main title
+title: Sangsu Lee                   # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Robotics, Control   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
+  Robotics and control engineering blog
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://s2robot.github.io'
+url: 'https://sangsulee-robot.github.io'
 
 github:
-  username: s2robot                     # change to your github username
+  username: sangsulee-robot                     # change to your github username
 
 # twitter:
 #   username: twitter_username            # change to your twitter username
@@ -43,7 +43,7 @@ social:
   links:
     # The first element serves as the copyright owner's link
     # - https://twitter.com/username      # change to your twitter homepage
-    - https://github.com/s2robot       # change to your github homepage
+    - https://github.com/sangsulee-robot       # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
     # - https://www.linkedin.com/in/username
@@ -71,7 +71,7 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode:   # [light|dark]
+theme_mode: light  # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
@@ -81,7 +81,7 @@ theme_mode:   # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar:
+avatar: assets/img/favicons/android-chrome-512x512.png
 
 # boolean type, the global switch for ToC in posts.
 toc: true

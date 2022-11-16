@@ -1,3 +1,10 @@
+---
+title: Google test 실습 예시
+date: 2022-11-05 13:30:00 +/-TTTT
+categories: [C++, Google test]
+tags: [google test, gtest]
+---
+
 # 디렉토리 구성
 * gtest_practice
     * [googletest](https://github.com/google/googletest)
